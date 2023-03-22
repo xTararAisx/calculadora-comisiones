@@ -11,7 +11,7 @@ def verificar_cargos_indebidos(comisiones):
     return len(comisiones_indebidas) > 0
 
 def main():
-    st.title("Calculadora de Comisiones Bancarias "<a href="Acead.es">Acead.es</a>"")
+    st.title("Calculadora de Comisiones Bancarias <html><a href="Acead.es">Acead.es</a></html>")
 
     num_transacciones = st.number_input("Número de transacciones", min_value=1, max_value=10, value=1, step=1)
 
