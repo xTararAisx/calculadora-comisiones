@@ -31,9 +31,9 @@ def main():
 
         cargos_indebidos = verificar_cargos_indebidos(comisiones)
         if cargos_indebidos:
-            st.error("Se han detectado cargos indebidos. Por favor, ponte en contacto con tu entidad bancaria para reclamar.")
+            st.error("Es muy probable que hayas pagado de mas. Por favor, ponte en contacto con tu entidad bancaria para reclamar.")
         else:
-            st.success("No se han detectado cargos indebidos en tus transacciones.")
+            st.success("Es muy probable que no haya cargos indebidos.")
 
 if __name__ == "__main__":
     main()
